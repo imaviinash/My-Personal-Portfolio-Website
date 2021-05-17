@@ -384,6 +384,10 @@ h6 {
     margin-top: 0.5rem;
 }
 
+.main-container .post a {
+    text-decoration: none;
+}
+
 .certificates {
     display: grid;
     justify-content: space-between;
