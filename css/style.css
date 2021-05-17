@@ -374,12 +374,12 @@ h6 {
 }
 
 .post-title {
-    color: black;
+    color: var(--mainText);
     margin: 0;
 }
 
 .post-intro {
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 14px;
     margin-top: 0.5rem;
 }
@@ -493,10 +493,9 @@ h6 {
     -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section p a {
+.contact-section h6 a {
     text-decoration: none;
-    color: #4b5156;
-    font-size: 14px;
+    color: var(--secondaryText);
 }
 
 #footer-section {
