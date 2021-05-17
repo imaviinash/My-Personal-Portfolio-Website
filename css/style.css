@@ -374,12 +374,12 @@ h6 {
 }
 
 .post-title {
-    color: var(--mainText);
+    color: black;
     margin: 0;
 }
 
 .post-intro {
-    color: var(--secondaryText);
+    color: #4b5156;
     font-size: 14px;
     margin-top: 0.5rem;
 }
