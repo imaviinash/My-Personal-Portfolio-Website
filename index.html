@@ -23,6 +23,10 @@
     <!-- Bootstrap CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
+    <!-- Animation CSS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!--Font Awesome 5-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -37,7 +41,7 @@
 
     <section class="s1">
         <div class="main-container">
-            <div class="greeting-wrapper">
+            <div class="greeting-wrapper" data-aos="fade">
                 <h1>Hi, I'm Avinash Rouniyar</h1>
             </div>
 
@@ -62,7 +66,7 @@
                     </ul>
                 </div>
 
-                <div class="left-column">
+                <div class="left-column" data-aos="fade-left">
                     <img id="profile_pic" src="images/Avinash.jpg">
                     <h5 style="text-align: center;line-height: 0; padding-top:1.5rem;">Personalize Theme</h5>
 
@@ -76,7 +80,7 @@
                     <p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
                 </div>
 
-                <div class="right-column">
+                <div class="right-column" data-aos="fade-right">
 
                     <div id="preview-shadow">
                         <div id="preview">
@@ -97,7 +101,7 @@
         <div class="main-container">
 
             <div class="about-wrapper">
-                <div class="about-me">
+                <div class="about-me" data-aos="fade-right">
                     <h4>More About Me</h4>
 
                     <p>I'm passionate Front-End Developer and Graphics Designer, actively looking for a new life-changing opportunity. I'm a self-motivated and well organized person, quick thinking and eager to learn.</p>
@@ -111,7 +115,7 @@
                     <p>Front-End Developer and Graphics Designer and currently focusing on Django + Bootstrap for backend.</p>
                     <p>Download My Resume: <a target="_blank" href="images/Graphics Design Resume.png">Graphics Design</a>&nbsp;<a target="_blank" href="images/Front-End Developer Resume.png">Front-End Developer</a></p>
 
-                    <div id="skills">
+                    <div id="skills" data-aos="flip-left" data-aos-easing="ease">
                         <ul style="padding-top: 1rem;">
                             <li>HTML/CSS</li>
                             <li>JavaScript</li>
@@ -135,8 +139,9 @@
                 </div>
 
 
-                <div class="social-links">
-                    <img id="social_img" src="images/follow.png">
+                <div class="social-links" data-aos="fade-left">
+
+                    <img id="social_img" src="images/follow.png" data-aos="flip-right" data-aos-easing="ease">
                     <h3 style="text-align: center; padding-top:1rem;">Find me on Social Media!!</h3>
 
                     <a target="_blank" href="https://www.youtube.com/c/GeeksRedefined?sub_confirmation=1">YouTube: @GeeksRedefined</a>
@@ -162,7 +167,7 @@
 
             <div class="box-container">
 
-                <div class="box">
+                <div class="box" data-aos="fade">
                     <i class="fa fa-graduation-cap"></i>
                     <span>2016-2020</span>
                     <div class="education-text">
@@ -171,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="fade">
                     <i class="fa fa-graduation-cap"></i>
                     <span>2014-2016</span>
                     <div class="education-text">
@@ -180,7 +185,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="fade">
                     <i class="fa fa-graduation-cap"></i>
                     <span>2000-2013</span>
                     <div class="education-text">
@@ -200,16 +205,16 @@
 
             <div class="post-wrapper">
 
-                <div class="post">
-                    <img class="thumbnail" src="images/CSITAN.jpg">
-                    <div class="post-preview">
-                        <h6 class="post-title">CSITAN Purwanchal Website</h6>
-                        <p class="post-intro">CSITAN Purwanchal website was designed using HTML, CSS, JavaScript and Bootstrap.</p>
-                        <a href="https://imaviinash.github.io/CSITAN-Purwanchal-Website" target="_blank">View Website</a>
+                <div class="post" data-aos="zoom-in">
+                    <img class=" thumbnail " src="images/CSITAN.jpg ">
+                    <div class="post-preview ">
+                        <h6 class="post-title ">CSITAN Purwanchal Website</h6>
+                        <p class="post-intro ">CSITAN Purwanchal website was designed using HTML, CSS, JavaScript and Bootstrap.</p>
+                        <a href="https://imaviinash.github.io/CSITAN-Purwanchal-Website " target="_blank ">View Website</a>
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post " data-aos="zoom-in">
                     <img class="thumbnail" src="images/HamroKitab.png">
                     <div class="post-preview">
                         <h6 class="post-title">HamroKitab Website</h6>
@@ -218,7 +223,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/Restaurant Website1.png">
                     <div class="post-preview">
                         <h6 class="post-title">Restaurant Website</h6>
@@ -227,7 +232,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/satlok technology ads banner.png">
                     <div class="post-preview">
                         <h6 class="post-title">Digital Marketing Ads Banner</h6>
@@ -236,7 +241,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/Paujan Visiting Card.png">
                     <div class="post-preview">
                         <h6 class="post-title">Visting Card</h6>
@@ -245,7 +250,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/corona.png">
                     <div class="post-preview">
                         <h6 class="post-title">Corona Banner</h6>
@@ -254,7 +259,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/Certificate.jpg">
                     <div class="post-preview">
                         <h6 class="post-title">Certificate Design</h6>
@@ -263,7 +268,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/CR Banner.png">
                     <div class="post-preview">
                         <h6 class="post-title">CR Banner Design</h6>
@@ -272,7 +277,7 @@
                     </div>
                 </div>
 
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <img class="thumbnail" src="images/bsajilo.png">
                     <div class="post-preview">
                         <h6 class="post-title">Logo Design</h6>
@@ -283,7 +288,7 @@
 
             </div>
 
-            <p align="center">
+            <p align="center" data-aos="zoom-in">
                 <a href="projects.html" target="_blank">View More</a>
             </p>
 
@@ -292,32 +297,32 @@
 
     <section class="s1">
         <div class="main-container">
-            <h3>Certifications</h3>
+            <h3>Certification</h3>
 
             <div class="certificates">
                 <div class="row">
 
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-right">
                         <a href="https://www.udemy.com/certificate/UC-b1104dd3-e58b-40a5-9e26-3a02e1107fb6/" target="_blank"><img id="certificate_img" src="images/Front-End.jpg" class="img-thumbnail"></a>
                         <h6 class="certificate-title">The Complete Front-End Web Development Course!</h6>
                     </div>
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-left">
                         <h6 class="certificate-title text-right">The Complete Adobe Illustrator CC 2020 MasterClass</h6>
                         <a href="https://www.udemy.com/certificate/UC-8edfe632-c49d-4b49-9fda-60943cb2e72f/" target="_blank"><img id="certificate_img" src="images/Illustrator.jpg" class="img-thumbnail"></a>
                     </div>
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-right">
                         <a href="https://www.udemy.com/certificate/UC-43b76530-58b6-4511-b52c-231d43dd44a6/" target="_blank"><img id="certificate_img" src="images/Photoshop.jpg" class="img-thumbnail"></a>
                         <h6 class="certificate-title">The Complete Photoshop CC Course Beginner To Intermediate</h6>
                     </div>
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-left">
                         <h6 class="certificate-title text-right">The Complete Adobe Premiere Pro CC Course Beginner to Advanced</h6>
                         <a href="https://www.udemy.com/certificate/UC-872ea776-8ffe-4b07-9a80-f0f28efabef7/" target="_blank"><img id="certificate_img" src="images/Premiere Pro.jpg" class="img-thumbnail"></a>
                     </div>
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-right">
                         <a href="https://www.udemy.com/certificate/UC-cd766b65-3ff8-454c-81bb-13530b342fd8/" target="_blank"><img id="certificate_img" src="images/VideoScribe.jpg" class="img-thumbnail"></a>
                         <h6 class="certificate-title">Videoscribe White Board Animation Masterclass 2020</h6>
                     </div>
-                    <div class="col-md-6 certificate-list">
+                    <div class="col-md-6 certificate-list" data-aos="fade-left">
                         <h6 class="certificate-title text-right">Complete Photography : 21 Courses in 1 [Beginner to Expert]</h6>
                         <a href="https://www.udemy.com/certificate/UC-26c69b98-4bfa-40b4-a2ad-5d903c677f66/" target="_blank"><img id="certificate_img" src="images/Photography.jpg" class="img-thumbnail"></a>
                     </div>
@@ -334,7 +339,7 @@
                 <a name="contact"></a>Get In Touch</h3>
 
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7" data-aos="fade-down">
                     <div id="map" class="map-container" style="height: 400px">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d223.2472937256964!2d87.27768970546651!3d26.4571246570693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x407f14e50303e25!2sAvinash%20Rouniyar%20Home!5e0!3m2!1sen!2snp!4v1621141157611!5m2!1sen!2snp"
                             frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -343,7 +348,9 @@
                     <div class="row text-center contact-section">
                         <div class="col-lg-4">
                             <i class="fa fa-map-marker"></i>
-                            <h6><a href="https://goo.gl/maps/tYbvnZjEJMvCbWXM9">Biratnagar - 06, Mahabir Rd Morang, Nepal</a></h6>
+                            <h6>
+                                <a href="https://goo.gl/maps/tYbvnZjEJMvCbWXM9">Biratnagar - 06, Mahabir Rd Morang, Nepal</a>
+                            </h6>
                         </div>
 
                         <div class="col-lg-4">
@@ -361,7 +368,7 @@
                 </div>
 
 
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-up">
                     <form id="contact-form">
                         <label>Name</label>
                         <input class="input-field" type="text" name="name">
@@ -400,6 +407,15 @@
 
     <!-- Custom JS link -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Animation JS link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>
